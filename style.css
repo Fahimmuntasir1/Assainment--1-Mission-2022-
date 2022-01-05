@@ -1,0 +1,55 @@
+/* font-family: 'Lexend Deca', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yeseva One', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+/* header-section-is-started */
+.header-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.left-header{
+    width: 50%;
+    margin-top: 100px;
+}
+.left-header .title{
+    border-left: 5px solid red;
+    margin: 20px 0;
+}
+.title h1{
+    font-size: 65px;
+    font-family: 'Yeseva One', cursive;
+    margin-left: 10px;
+}
+.title h1 .colorful{
+    color: rgba(241, 15, 139, 0.836);
+    font-family: 'Yeseva One', cursive;
+}
+.left-header p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.left-header button{
+    margin-top: 25px;
+    padding: 20px 70px;
+    background-color: cyan;
+    border: none;
+    border-radius: 5px;
+}
+.left-header button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.right-header{
+    width: 50%;
+}
+.profile-photo img{
+    width: 400px;
+    margin-left: 90px;
+}

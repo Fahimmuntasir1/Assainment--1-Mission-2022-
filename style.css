@@ -1,4 +1,5 @@
-/* font-family: 'Lexend Deca', sans-serif;
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Yeseva One', cursive; */
 
@@ -12,6 +13,7 @@ font-family: 'Yeseva One', cursive; */
     display: flex;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 90px;
 }
 .left-header{
     width: 50%;
@@ -21,8 +23,13 @@ font-family: 'Yeseva One', cursive; */
     border-left: 5px solid red;
     margin: 20px 0;
 }
+.left-header p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 50px;
+}
 .title h1{
-    font-size: 65px;
+    font-size: 60px;
     font-family: 'Yeseva One', cursive;
     margin-left: 10px;
 }
@@ -50,6 +57,50 @@ font-family: 'Yeseva One', cursive; */
     width: 50%;
 }
 .profile-photo img{
-    width: 400px;
+    width: 450px;
     margin-left: 90px;
+}
+/* header-section-is-ended */
+
+/* mission-section-is-started */
+.mission-section{
+    margin-bottom: 60px;
+}
+.mission-section .title h2{
+    font-size: 50px;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.mission-section .title .year{
+    color: rgba(241, 15, 139, 0.836);
+    font-family: 'Archivo Black', sans-serif;
+}
+.parent-box{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.parent-box img{
+    width: 55%;
+}
+.parent-box .box-design{
+    width: 33%;
+    margin: 10px 10px;
+    padding-top: 20px;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.parent-box .box-design h3{
+    font-size: 25px;
+    margin: 10px 0 20px;
+}
+.parent-box .box1{
+    background-color: rgba(0, 204, 255, 0.116);
+}
+.parent-box .box2{
+    background-color: rgba(189, 202, 1, 0.144);
+}
+.parent-box .box3{
+    background-color: rgba(255, 0, 242, 0.096);
 }

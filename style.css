@@ -36,8 +36,9 @@ font-family: 'Yeseva One', cursive; */
     margin-top: 100px;
 }
 .left-header .title{
-    border-left: 5px solid red;
+    border-left: 5px solid rgb(0, 255, 255);
     margin: 20px 0;
+    border-radius: 10px;
 }
 .left-header p{
     font-size: 18px;
@@ -208,5 +209,8 @@ footer h3{
 footer p{
     color: white;
     padding: 10px 0 30px;
+}
+.pragraph{
+    color: rgb(112, 112, 112);
 }
 /* footer-section-started */

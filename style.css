@@ -8,6 +8,22 @@ font-family: 'Yeseva One', cursive; */
     padding: 0;
     font-family: 'Lexend Deca', sans-serif;
 }
+
+/* all-button */
+.btn{
+    margin-top: 25px;
+    padding: 20px 70px;
+    background-color: cyan;
+    border: none;
+    border-radius: 5px;
+}
+.hyper-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+/* all-button */
+
 /* header-section-is-started */
 .header-section{
     display: flex;
@@ -41,18 +57,7 @@ font-family: 'Yeseva One', cursive; */
     font-size: 18px;
     line-height: 25px;
 }
-.left-header button{
-    margin-top: 25px;
-    padding: 20px 70px;
-    background-color: cyan;
-    border: none;
-    border-radius: 5px;
-}
-.left-header button a{
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-}
+
 .right-header{
     width: 50%;
 }
@@ -66,16 +71,18 @@ font-family: 'Yeseva One', cursive; */
 .mission-section{
     margin-bottom: 60px;
 }
-.mission-section .title h2{
-    font-size: 50px;
+/* all-title-for-h2 */
+.all-title-h2{
+    font-size: 30px;
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
     margin-bottom: 30px;
 }
-.mission-section .title .year{
+.colorfull{
     color: rgba(241, 15, 139, 0.836);
     font-family: 'Archivo Black', sans-serif;
 }
+/* all-title-for-h2 */
 .parent-box{
     display: flex;
     width: 80%;
@@ -104,3 +111,102 @@ font-family: 'Yeseva One', cursive; */
 .parent-box .box3{
     background-color: rgba(255, 0, 242, 0.096);
 }
+/* mission-section-is-ended */
+
+/* same-things-between-2-section */
+.same-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+/* same-things-between-2-section */
+/* no-limit-develop-section-is-started */
+
+.left-side-photo{
+    width: 100%;
+}
+.left-side-photo img{
+    width: 380px;
+}
+.right-side-text{
+    margin: 30px 0 0 60px;
+
+}
+.right-side-text h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.right-side-text p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/* no-limit-develop-section-is-ended */
+
+
+/* community-section-started */
+
+.left-side-text{
+    margin: 30px 60px 0 0;
+
+}
+.left-side-text h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.left-side-text p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.right-side-photo{
+    width: 100%;
+}
+.right-side-photo img{
+    width: 380px;
+}
+/* community-section-ended */
+
+/* journey-section-started  */
+.left-side{
+    width: 50%;
+}
+.left-side img{
+    width: 380px;
+    margin: 50px 0 0 70px;
+}
+.right-side{
+    margin: 30px 0 0 60px;
+    width: 50%;
+
+}
+.right-side h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.right-side p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* journey-section-ended  */
+/* footer-section-started */
+footer{
+    background-color: rgb(9, 1, 46);
+    text-align: center;
+    
+}
+footer h3{
+    font-size: 30px;
+    color: white;
+    padding: 30px 0 10px;
+}
+footer p{
+    color: white;
+    padding: 10px 0 30px;
+}
+/* footer-section-started */
